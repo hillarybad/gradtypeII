@@ -47,31 +47,26 @@ table {
 	border-spacing: 0;
 }
 
-@font-face {
-    font-family: 'Sporting Grotesque_Bold';
-    src:    url('fonts/Sporting_Grotesque-Bold_web.eot');
-    src:    url('fonts/Sporting_Grotesque-Bold_web.eot?#iefix') format('embedded-opentype'),
-            url('fonts/Sporting_Grotesque-Bold_web.woff') format('woff'),
-            url('fonts/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
-            url('fonts/Sporting_Grotesque-Bold_web.ttf') format('truetype'),
-            url('fonts/Sporting_Grotesque-Bold_web.svg#svgFontName') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 
 
 body {
-  max-width: 620px;
+
+	/* background-image: url("images/brain.svg"), url("images/atom.svg");
+	background-repeat: space;
+	background-position: right;
+	margin-right: 300px;
+	background-attachment: scroll; */
+  max-width: 680px;
+	background-color: Linen;
+	color: DarkSlateGrey;
   min-width: 325px;
   padding: 0 25px 0 25px;
   margin: auto;
   margin-top: 50px;
-  font-family: source-serif-pro, serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
   letter-spacing: .02em;
   font-variant-numeric: oldstyle-nums;
@@ -86,23 +81,34 @@ body {
 }
 
 h1 {
-font-family: 'Sporting Grotesque_Bold';
-font-size: 40px;
-line-height: 50px;
+font-family: 'IBM Plex Mono', monospace;
+font-size: 80px;
+line-height: 80px;
 margin-bottom: 5px;
+font-weight: 700;
+color: CornflowerBlue;
 }
-/* p {
-  margin-bottom: 27px;
-  text-indent: 1em;
-} */
+h2 {
+font-family: 'IBM Plex Mono', monospace;
+font-size: 35px;
+line-height: 40px;
+margin-bottom: 5px;
+margin-top: 20px;
+font-weight: 400;
+color: CornflowerBlue;
+}
+h3 {
+font-family: 'IBM Plex Mono', monospace;
+font-size: 25px;
+line-height: 40px;
+margin-bottom: 5px;
+margin-top: 20px;
+font-weight: 400;
+color: CornflowerBlue;
+}
 
-p+p {
-  text-indent: 1em;
-}
+/* #bg-image
+  background-color: transparent;
+	background-size: cover; */
 
-.pull-quote {
-  color: red;
-}
-i {
-  font-style: italic;
 }
